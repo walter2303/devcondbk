@@ -1,6 +1,6 @@
 # devcondbk
 
-Api Condominio feito com Laravel 8 - usando tecnologia JWT 
+Api Condominio feito com Laravel 8 - usando  JWTSecret 
 
 -- --------------------------------------------------------
 -- Servidor:                     127.0.0.1
@@ -102,7 +102,7 @@ INSERT INTO `unitvehicles` (`id`, `id_unit`, `title`, `color`, `plate`) VALUES
 -- Copiando dados para a tabela devcond.users: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `name`, `email`, `cpf`, `password`) VALUES
-	(1, 'Walter Mudesto Pereira', 'familiamudesto@mudesto.com.br', '12345678910', '$2y$10$U9VZst3px7BZKipvO3zmse/g/W5velK3bQx7Ok5aMGth2MSxlERAS'),
+	(1, 'Walter Mudesto Pereira', 'familia@familia.com.br', '12345678910', '$2y$10$U9VZst3px7BZKipvO3zmse/g/W5velK3bQx7Ok5aMGth2MSxlERAS'),
 	(2, 'Deia', 'deia@walter.com.br', '12345678902', '$2y$10$9DuNtYColiyKicyD2HkxHuzTRckuYvaGPAIaVxTo8IOxRNo/5iE8.');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
